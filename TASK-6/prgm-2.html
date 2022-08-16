@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>program_2</title>
+    <script>
+        function reverseString()
+        {
+            var str  = document.getElementById("str").value;
+            var rev = "";
+            for(var i = str.length - 1; i >= 0; i--) {
+                rev += str[i];
+            }
+            alert("Reverse of entered String is " + rev);
+        }
+    </script>
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+        .form_1{
+            margin:200px 500px;
+        }
+        input[type="button"] {
+            background-color: green;
+            margin:12px 50px;
+            padding:5px;
+        }
+        body{
+            background-color: lavender;
+        }
+    </style>
+</head>
+<body>
+    <div class="form_1">
+        <form action="">
+            <label for="">Enter any String here  : </label>
+            <input type="text" name="" id="str"> <br>
+            &nbsp;<input type="button" value="Submit" onclick = "reverseString()">
+            <br>
+        </form>
+    </div>
+</body>
+</html>

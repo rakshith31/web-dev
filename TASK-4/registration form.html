@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        .forms{
+            background-color:rgb(198, 196, 196);
+            margin:0px auto;
+            width:70%;
+            padding:30px;
+        }
+        input[type]{
+            width:150%
+        }
+        input[type=radio],input[type=checkbox] {
+            width:10%
+        }
+        input[type=button]{
+            background-color:rgb(111, 220, 111);
+           border-style:inset;
+        }
+		
+	.title{
+	color:red;
+		}
+		
+    </style>
+</head>
+<body>
+<div class=title align="right">
+<h3><u>Student Registration Form</h3></u>
+</div>
+    <div class="forms">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="text" value="" placeholder="Enter your first name"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="text" value="" placeholder="Enter your last name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="email" value="" placeholder="it should contain @"></td>
+            </tr>
+            <tr>
+                <td>Mobile:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="number" value="" placeholder="only 10 digits allowed"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="radio" name="gender">Male<input type="radio" name="gender">Female</td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="date" value="" name="begin" placeholder="mm/dd/yyyy"></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><textarea name="" id="" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td> City:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="text" value=""></td>
+            </tr>
+            <tr>
+                <td>Area PIN:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="text" value="" ></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="text" value="" ></td>
+            </tr>
+            <tr>
+                <td>Qualification:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><select name="" id="">
+                    <option value="">Select Qualification</option>
+                    <option value="">Computer Software and application knowledge</option>
+                    <option value="">Data science</option>
+                    <option value="">PG/PHD</option>
+                    <option value="">DEGREE/B.TECH</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Specialization:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="checkbox" name="" id="">ComputerScience  <br>
+                     <input type="checkbox" name="" id="">Information Technology<br>
+                     <input type="checkbox" name="" id="">Computer Architecture<br>
+                     <input type="checkbox" name="" id="">Tele Communication<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="text" value="" ></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Registered">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
