@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+    <script>
+        //for cube of number
+        function getCube(){
+             var n1=document.getElementById("number").value;
+             cube=n1*n1*n1;
+             document.getElementById('demo').innerHTML=("cube of "+n1+" is: "+cube);
+
+        }
+        //for square of a number
+        function getSquare(){
+             var n2=document.getElementById("number").value;
+             square=n2*n2;
+             document.getElementById('demo').innerHTML=("square of "+n2+" is: "+square);
+
+        }
+        
+        //for squareroot
+        function getSquareRoot(){
+             var n3=document.getElementById("number").value;
+            square=Math.sqrt(n3);
+            document.getElementById('demo').innerHTML=("squareRoot of "+n3+" is: "+ square);
+
+        }
+
+
+        //for cuberoot
+        function getCubeRoot(){
+             var n4=document.getElementById("number").value;
+            Cuberoot=Math.cbrt(n4);
+            document.getElementById('demo').innerHTML=("CubeRoot of "+n4+" is: "+ Cuberoot);
+
+        }
+    </script>
+    <center>
+    <form >
+       
+        Enter a Number:  <input type="text" id="number"><br><br>
+        <div id="demo">
+
+
+        </div>
+        <input type="button" onclick="getCube()" value="Find cube">
+        <input type="button" onclick="getSquare()" value="Find Square">
+        <input type="button" onclick="getSquareRoot()" value="Find SquareRoot">
+        <input type="button" onclick="getCubeRoot()" value="Find CubeRoot">
+
+       
+
+    </form>
+    </center>
+
+    
+</body>
+</html>

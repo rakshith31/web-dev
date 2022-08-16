@@ -1,0 +1,22 @@
+body{
+    background-color: blanchedalmond;
+   border:9px solid royalblue;
+   border-style:ridge;
+   padding-bottom: 225px;
+   
+}
+form{
+    font-size: 30px;
+    font-family:cursive;
+}
+.main{
+    background-color:white;
+}
+input{
+    font-size: 20px;
+    color:blueviolet;
+    background-color:lavender;
+    font-family:monospace;
+    border-color:hotpink;
+    
+}
